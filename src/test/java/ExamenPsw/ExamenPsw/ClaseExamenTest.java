@@ -36,6 +36,7 @@ public class ClaseExamenTest {
 		assertEquals(listaTest, test.primos(13));
 	}
 	
+	
 	@Test(expected = RuntimeException.class)
 	public void testInvalid() {
 		test.primos(1);
